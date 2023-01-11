@@ -1,6 +1,8 @@
-@import "~bootstrap/scss/bootstrap";
-
-@import 'base/reset';
+/*Las variables siempre deben ir primero*/
+@import 'utilities/variables';
+@import 'utilities/mixins';
+@import 'utilities/functions';
+@import 'utilities/custom'; 
 
 @import 'components/button';
 @import 'components/card';
@@ -11,13 +13,10 @@
 @import 'components/navbar_primario';
 @import 'components/navbar_secundario';
 
-@import 'utilities/custom'; 
-@import 'utilities/functions';
-@import 'utilities/mixins';
-@import 'utilities/variables';
-
 @import 'views/armalatuya';
 @import 'views/historia';
 @import 'views/landing';
 @import 'views/menu';
 
+@import 'base/reset';
+@import "~bootstrap/scss/bootstrap";
