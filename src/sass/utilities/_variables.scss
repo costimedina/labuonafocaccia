@@ -1,0 +1,29 @@
+$dark: #212225;
+$light: #383840;
+$primary: #F0F2F2;
+$secondary: #592A0F;
+$terciary: #733F49;
+$success: #BF6854;
+$alpha: #BF4141;
+$info:  #BF4141;
+
+.btn-primary{
+  background-color: $secondary;
+}
+
+// .btn-primary {
+//   --bs-btn-color: #F0EEFF;
+//   --bs-btn-bg: rgba(162, 128, 249, 1);
+//   --bs-btn-border-color: none;
+//   --bs-btn-hover-color: #F0EEFF;
+//   --bs-btn-hover-bg: #B5A4FD;
+//   --bs-btn-hover-border-color: #B5A4FD;
+//   --bs-btn-focus-shadow-rgb: 181, 164, 253, 1;
+//   --bs-btn-active-color: #F0EEFF;
+//   --bs-btn-active-bg: #7937CB;
+//   --bs-btn-active-border-color: #7937CB;
+//   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);  
+//   --bs-btn-disabled-color: #fff;
+//   --bs-btn-disabled-bg: #B5A4FD;
+//   --bs-btn-disabled-border-color: #B5A4FD;
+// }
