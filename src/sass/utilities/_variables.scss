@@ -1,24 +1,18 @@
-//black bg
-$primary: #383840;
-//button & card bg
-$secondary: #592A0F;
+//button
+$primary: #BF4141;
+
+//card bg
+$secondary: #733F49;
 
 //black font
 $dark: #212225;
 //white font & bg
 $light: #F0F2F2;
 
-//bg color
-$terciary: #BF6854;
-$success: #733F49;
-
-//other button
-$danger:  #BF4141;
 
 //font types
 $body-font: 'Noto Serif JP', serif;
 $footer-font: 'Montserrat', sans-serif;
-$card-font: 'Merriweather', serif;  
 
 //styles in process
 body {
@@ -41,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 
 //Fonts
 $font-text: 'Montserrat', sans-serif;
-$font-title: 'Merriweather', serif;
+$font-title: 'Noto Serif JP', serif;
 
 // .btn-primary{
 //   background-color: $secondary;

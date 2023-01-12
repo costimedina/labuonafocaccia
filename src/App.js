@@ -15,10 +15,6 @@ function App() {
      <Button className="btn btn-dark">Dark</Button>
      <Button className="btn btn-light">Light</Button>
 
-     <Button className="btn btn-terciary">Terciary</Button>
-     <Button className="btn btn-success">Success</Button>
-
-     <Button className="btn btn-danger">Danger</Button>
 
 
      <h2>Prueba de tipografía</h2>
