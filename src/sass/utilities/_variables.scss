@@ -15,6 +15,27 @@ $success: #733F49;
 //other button
 $danger:  #BF4141;
 
+//font types
+$body-font: 'Noto Serif JP', serif;
+$footer-font: 'Montserrat', sans-serif;
+$card-font: 'Merriweather', serif;  
+
+//styles in process
+body {
+  font-family: $body-font;
+  font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $footer-font;
+  font-weight: normal;
+}
+
+//button style ok
+.button {
+  font-family: $body-font;
+  font-weight: bold;
+}
+
 //$warning: #F2B279;
 
 // .btn-primary{
