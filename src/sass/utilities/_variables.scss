@@ -1,11 +1,21 @@
-$dark: #383840;
+//black bg
+$primary: #383840;
+//button & card bg
+$secondary: #592A0F;
+
+//black font
+$dark: #212225;
+//white font & bg
 $light: #F0F2F2;
-$primary: #BF4141;
-$secondary: #BF6854;
-$terciary: #733F49;
-$success: #D2D9C7;
-$danger:  #D95B72;
-$warning: #F2B279;
+
+//bg color
+$terciary: #BF6854;
+$success: #733F49;
+
+//other button
+$danger:  #BF4141;
+
+//$warning: #F2B279;
 
 // .btn-primary{
 //   background-color: $secondary;
