@@ -20,6 +20,8 @@ function App() {
 
      <Button className="btn btn-danger">Danger</Button>
 
+
+     <h2>Prueba de tipografía</h2>
     </div>
   );
 }
