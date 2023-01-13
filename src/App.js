@@ -7,9 +7,14 @@ import { Button } from "react-bootstrap";
 function App() {
   return (
     <div className="App">
-     <h1 className="title">hola, como estás?</h1>
+     <h1>LA BUONA FOCACCIA H1</h1>
+     <h2>LA BUONA FOCACCIA H2</h2>
+     <h3>LA BUONA FOCACCIA h3</h3>
+     <h4>LA BUONA FOCACCIA h4</h4>
+     <h5>LA BUONA FOCACCIA h5</h5>
+  
 
-     <Button className="btn btn-primary">Primary</Button>
+     <Button className="btn btn-primary boton">Primary</Button>
      <Button className="btn btn-secondary">Secondary</Button>
     
      <Button className="btn btn-dark">Dark</Button>
@@ -17,7 +22,7 @@ function App() {
 
 
 
-     <h2>Prueba de tipografía</h2>
+     <p>Prueba de tipografía</p>
     </div>
   );
 }
