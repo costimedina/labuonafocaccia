@@ -1,24 +1,26 @@
 //STYLES
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 //COMPONENTS
-import NavbarPrimario from "./components/NavbarPrimario";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-//HOOKS
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-//VIEWS 
+//VIEWS
 import Landing from "./views/Landing";
+import NavbarPrimario from "./components/NavbarPrimario";
 
 function App() {
   return (
+    <div className="App">
 
-<BrowserRouter>
-<NavbarPrimario />
-  <Routes>
-    <Route path="/" element={<Landing />} />
-  </Routes>
-</BrowserRouter>
+      <BrowserRouter>
+      <NavbarPrimario />
+        <Routes>
+          <Route path="/" element={<Landing />} />
+        </Routes>
+      </BrowserRouter>
+
+    </div>
   );
 }
 
