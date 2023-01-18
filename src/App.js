@@ -1,5 +1,4 @@
 //STYLES
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 //COMPONENTS
@@ -20,6 +19,7 @@ function App() {
         </Routes>
       </BrowserRouter>
 
+      
     </div>
   );
 }
