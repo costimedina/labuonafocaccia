@@ -23,6 +23,9 @@ function Footer() {
                             <p>Lorem ipsum</p>
                         </div>
                     </div>
+                    <div className="footer-bottom"></div>
+                    <p className="text-xs-center"></p> 
+                    &copy;{new Date().getFullYear()} La Buona Focaccia | Todos los derechos reservados 
                 </div>
             </div>
         </>
