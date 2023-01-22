@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 //VIEWS
 import Landing from "./views/Landing";
 import NavbarPrimario from "./components/NavbarPrimario";
-import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
 
       <BrowserRouter>
       <NavbarPrimario />
-      <Footer />
+      
         <Routes>
           <Route path="/" element={<Landing />} />
         </Routes>
