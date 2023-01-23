@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 //VIEWS
 import Landing from "./views/Landing";
 import NavbarPrimario from "./components/NavbarPrimario";
+import Menu from "./views/Menu";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       
         <Routes>
           <Route path="/" element={<Landing />} />
+          <Route path="/menu" element={<Menu />} />
         </Routes>
       </BrowserRouter>
 
