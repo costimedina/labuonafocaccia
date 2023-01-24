@@ -35,6 +35,7 @@
 
     &__title{
         text-transform: capitalize;
+        margin-top: 0.875rem;
         @include title-h3;
     }
 

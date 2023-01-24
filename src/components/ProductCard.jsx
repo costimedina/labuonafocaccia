@@ -5,7 +5,8 @@ const ProductCard = () => {
   return (
     <Card className="productCard shadow">
         <Card.Body className="productCard__body">
-            <Card.Title className="productCard__title">La Bonita</Card.Title>
+            <h3 className="productCard__title">La Bonita</h3>
+            {/* <Card.Title className="productCard__title">La Bonita</Card.Title> */}
             <Card.Text className="productCard__desc">
             Cebolla caramelizada, tomates asados y orégano.
             </Card.Text>
