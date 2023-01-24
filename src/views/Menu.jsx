@@ -3,9 +3,10 @@ import ProductCard from '../components/ProductCard';
 
 const Menu = () => {
   return (
-    <div>Menu
+    <div>
 
         <ProductCard />
+   
     </div>
   )
 }

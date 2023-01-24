@@ -3,7 +3,7 @@ import { Card, Button } from 'react-bootstrap';
 
 const ProductCard = () => {
   return (
-    <Card className="productCard">
+    <Card className="productCard shadow">
         <Card.Body className="productCard__body">
             <Card.Title className="productCard__title">La Bonita</Card.Title>
             <Card.Text className="productCard__desc">
