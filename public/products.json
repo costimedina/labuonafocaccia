@@ -1,0 +1,79 @@
+{
+    "clasicas":[
+          {
+              "id": 1,
+              "name": "focaccia genovese",
+              "desc1": "sazonada con sal de mar",
+              "price": "4.000",
+              "other1": "con aceitunas verdes",
+              "other2": "con aceitunas negras",
+              "specialPrince": "500"
+          },
+  
+          {
+              "id": 2,
+              "name": "focaccia alla cipolla",
+              "desc1": "con cebolla blanca",
+              "price": "4.500"
+          },
+  
+          {
+              "id": 3,
+              "name": "focaccia barese",
+              "desc1": "con albagaca y mix de tomates orgánicos",
+              "price": "5.000",
+              "other1": "con aceitunas verdes",
+              "other2": "con aceitunas negras",
+              "specialPrince": "500"
+          }
+      ],
+
+      "modernas":[
+        {
+            "id": 4,
+            "name": "la aromática",
+            "desc1": "sazonada con romero, queso azúl y papa orgánica triturada a mano",
+            "price": "6.500"
+        },
+
+        {
+            "id": 5,
+            "name": "la sorprendente",
+            "desc1": "con berenjenas horneadas con miel y queso de cabra",
+            "price": "6.500"
+        },
+
+        {
+            "id": 6,
+            "name": "la disuasiva",
+            "desc1": "con pesto de espinaca, láminas de papa chilota, alcaparras, especias y un toque de hojuelas de ají y sésamo",
+            "price": "7.000"
+        },
+
+        {
+            "id": 7,
+            "name": "la chilena",
+            "desc1": "con tomates de la zona, cebolla blanca, ají verde, ajo y perejíl macerado en aceite de oliva con merkén araucano",
+            "price": "7.000"
+        }
+    ],
+
+    "post modernismos":[
+        {
+            "id": 6,
+            "name": "pull apart bread",
+            "desc1": "pan para picoteo tipo brioche con queso parmesano, ajo y cilantro",
+            "price": "7.000"
+        },
+
+        {
+            "id": 7,
+            "name": "scones",
+            "desc1": "panecillos crocantes y dulces originarios de escocia, ideales para el desayuno o la hora del té",
+            "desc2": "8 unidades",
+            "price": "5.000",
+            "other1": "clásicos con zest de limón",
+            "other2": "clásicos con canela"
+        }        
+    ]
+  }
