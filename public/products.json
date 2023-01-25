@@ -7,14 +7,16 @@
               "price": "4.000",
               "other1": "con aceitunas verdes",
               "other2": "con aceitunas negras",
-              "specialPrince": "500"
+              "specialPrince": "500",
+              "img": "../assets/img/id-1"
           },
   
           {
               "id": 2,
               "name": "focaccia alla cipolla",
               "desc1": "con cebolla blanca",
-              "price": "4.500"
+              "price": "4.500",
+              "img": "../assets/img/id-2"
           },
   
           {
@@ -24,7 +26,8 @@
               "price": "5.000",
               "other1": "con aceitunas verdes",
               "other2": "con aceitunas negras",
-              "specialPrince": "500"
+              "specialPrince": "500",
+              "img": "../assets/img/id-3"
           }
       ],
 
@@ -33,47 +36,62 @@
             "id": 4,
             "name": "la aromática",
             "desc1": "sazonada con romero, queso azúl y papa orgánica triturada a mano",
-            "price": "6.500"
+            "price": "6.500",
+            "img": "../assets/img/id-4"
         },
 
         {
             "id": 5,
             "name": "la sorprendente",
             "desc1": "con berenjenas horneadas con miel y queso de cabra",
-            "price": "6.500"
+            "price": "6.500",
+            "img": "../assets/img/id-5"
         },
 
         {
             "id": 6,
             "name": "la disuasiva",
             "desc1": "con pesto de espinaca, láminas de papa chilota, alcaparras, especias y un toque de hojuelas de ají y sésamo",
-            "price": "7.000"
+            "price": "7.000",
+            "img": "../assets/img/id-6"
         },
 
         {
             "id": 7,
             "name": "la chilena",
             "desc1": "con tomates de la zona, cebolla blanca, ají verde, ajo y perejíl macerado en aceite de oliva con merkén araucano",
-            "price": "7.000"
+            "price": "7.000",
+            "img": "../assets/img/id-7"
         }
     ],
 
     "post modernismos":[
         {
-            "id": 6,
+            "id": 8,
             "name": "pull apart bread",
             "desc1": "pan para picoteo tipo brioche con queso parmesano, ajo y cilantro",
-            "price": "7.000"
+            "price": "7.000",
+            "img": "../assets/img/id-8"
         },
 
         {
-            "id": 7,
+            "id": 9,
             "name": "scones",
             "desc1": "panecillos crocantes y dulces originarios de escocia, ideales para el desayuno o la hora del té",
             "desc2": "8 unidades",
             "price": "5.000",
             "other1": "clásicos con zest de limón",
-            "other2": "clásicos con canela"
-        }        
+            "other2": "clásicos con canela",
+            "img": "../assets/img/id-9"
+        },
+        
+        {
+            "id": 10,
+            "name": "lemon cakes",
+            "desc1": "panecillos crocantes y dulces originarios de escocia, ideales para el desayuno o la hora del té",
+            "desc2": "8 unidades",
+            "price": "10.000",
+            "img": "../assets/img/id-10"            
+        }
     ]
   }
