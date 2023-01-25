@@ -1,0 +1,52 @@
+.productCard{
+    display: flex;
+    flex-flow: row nowrap !important;
+    align-items: stretch;
+    width: 30rem;
+    height: auto;
+    box-sizing: border-box;
+    border: none !important;
+
+    &__img_container{
+        box-sizing: border-box;
+        display: block;
+        overflow: hidden;
+    }
+
+    &__img{
+        display: flex;
+        justify-content: flex-end;
+        border: none;
+        width: 10.375rem;
+        // height: 10.375rem;
+        object-fit: contain;
+    }
+
+    
+    &__body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1.875rem;
+        width: 80%;
+        background-color: $light;
+        border: none;
+    }
+
+    &__title{
+        text-transform: capitalize;
+        margin-top: 0.875rem;
+        @include title-h3;
+    }
+
+    &__desc{
+        @include text;
+    }
+
+    &__price{
+        font-size: 1.25rem;
+        font-family: $font-title;
+        color: $dark; 
+        opacity: 50%;
+    }
+}

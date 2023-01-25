@@ -1,0 +1,56 @@
+//Títulos
+//H1
+@mixin title-h1{
+    font-family: $font-title;
+    font-size: 3rem !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: 4.3rem;
+}
+
+//H2
+@mixin title-h2{
+    font-family: $font-title;
+    font-size: 2rem !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: 4.3rem;
+}
+
+//H3
+@mixin title-h3{
+    font-family: $font-title;
+    font-size: 1.5rem !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: 2.125rem;
+    text-transform: uppercase;
+}
+
+//H4
+@mixin title-h4{
+    font-family: $font-title;
+    font-size: 1.25rem !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: 1.8rem;
+}
+
+//H5
+@mixin title-h5{
+    font-family: $font-title;
+    font-size: 1rem !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+}
+
+
+//Textos
+@mixin text{
+    font-family: $font-text;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.12575rem;
+}
