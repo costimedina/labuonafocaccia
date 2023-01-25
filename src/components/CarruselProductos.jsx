@@ -1,12 +1,15 @@
 import { Carousel } from "react-bootstrap";
 
+//IMAGES
+import test from '../assets/img/hero-bg.jpg';
+
 function CarruselProductos() {
   return (
     <Carousel variant="dark">
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./img/generic.jpg"
+          src={test}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -17,7 +20,7 @@ function CarruselProductos() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=eee"
+          src={test}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -28,7 +31,7 @@ function CarruselProductos() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=e5e5e5"
+          src={test}
           alt="Third slide"
         />
         <Carousel.Caption>
