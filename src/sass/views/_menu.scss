@@ -1,7 +1,16 @@
 .mainCont{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
     margin: 1.875rem 0;
 
     &__title{
         margin-bottom: 3.125rem;
     }
+}
+
+.rowCont{
+    display: flex;
+   
+    justify-content: space-between;
 }

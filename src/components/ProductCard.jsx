@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 
 const ProductCard = () => {
+
   return (
     <Card className="productCard shadow">
         <Card.Body className="productCard__body">
