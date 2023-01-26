@@ -1,16 +1,23 @@
 .mainCont{
     display: flex;
     flex-flow: column wrap;
-    width: 100%;
-    margin: 1.875rem 0;
+    margin: 1.875rem;
+    justify-content: center;
 
     &__title{
         margin-bottom: 3.125rem;
     }
 }
 
-.rowCont{
-    display: flex;
-   
-    justify-content: space-between;
+
+.galleryCols{
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin: 3rem;
 }
