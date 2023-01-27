@@ -12,7 +12,7 @@ const ProductCard = () => {
             Cebolla caramelizada, tomates asados y orégano.
             </Card.Text>
             <Card.Text className="productCard__price">$9.900</Card.Text>
-            <Button variant="primary">Agregar al carro</Button>
+            <Button variant="primary">Agregar</Button>
         </Card.Body>
         <span className='productCard__img_container'>
         <Card.Img className="productCard__img" src="https://img.pizza/300/300" alt="mmm pizza" />
