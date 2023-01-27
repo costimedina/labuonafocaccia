@@ -1,10 +1,15 @@
-import React from 'react';
+import { React, useContext } from 'react';
 import ProductCard from './ProductCard';
-import { Container } from 'react-bootstrap';
+import Context from '../context/Context';
+
 
 const Grid = () => {
+
+ const { products } = useContext(Context);
+
   return (
     <div className="myGrid">
+
         <ProductCard  />
         <ProductCard />
         <ProductCard />
