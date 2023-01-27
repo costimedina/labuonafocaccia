@@ -10,8 +10,7 @@ const Grid = () => {
         <ProductCard />
         <ProductCard />
         <ProductCard />
-        <ProductCard />
-        <ProductCard />
+
 
     </div>
   )
