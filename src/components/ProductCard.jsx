@@ -15,7 +15,7 @@ const ProductCard = () => {
             <Button variant="primary">Agregar al carro</Button>
         </Card.Body>
         <span className='productCard__img_container'>
-        <Card.Img className="productCard__img" variant="bottom" src="https://img.pizza/300/300" alt="mmm pizza" />
+        <Card.Img className="productCard__img" src="https://img.pizza/300/300" alt="mmm pizza" />
 
         </span>
 

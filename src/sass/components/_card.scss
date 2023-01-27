@@ -1,32 +1,26 @@
 .productCard{
     display: flex;
     align-items: stretch;
-    width: 26.25rem;
+    width: 26.3rem;
     height: auto;
     box-sizing: border-box;
     border: none !important;
 
     &__img_container{
-        box-sizing: border-box;
-        // display: block;
+        // box-sizing: border-box;
+        display: flex;
         overflow: hidden;
     }
 
     &__img{
-        display: flex;
-        justify-content: stretch;
         border: none;
-        // width: 10.375rem;
-        // height: 10.375rem;
-        object-fit: contain;
+        object-fit: cover;
     }
     
     &__body{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         padding: 1.875rem;
-        width: 80%;
         background-color: $light;
         border: none;
     }
