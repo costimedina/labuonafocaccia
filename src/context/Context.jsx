@@ -20,11 +20,10 @@ useEffect(()=>{
     getProducts();
 }, [])
 
-console.log(products)
 
   return (
     //Pass the variables and functions through the ContextProvider as values
-    <Context.Provider value={{products}}>
+    <Context.Provider value={{products, setProducts}}>
         {children}
     </Context.Provider>
   )

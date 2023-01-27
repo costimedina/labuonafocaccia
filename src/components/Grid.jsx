@@ -3,22 +3,19 @@ import ProductCard from './ProductCard';
 import Context from '../context/Context';
 
 
-const Grid = () => {
 
- const { products } = useContext(Context);
+const Grid = ({data}) => {
+
+  const { products, setProducts } = useContext(Context);
 
   return (
     <div className="myGrid">
-
-        <ProductCard  />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-
-
+      {data.clasicas.map((p, i)=> (
+        <ProductCard product={p} key={i}/>
+      ))}
+    
     </div>
-  )
+  );
 }
 
-export default Grid
+export default Grid;
