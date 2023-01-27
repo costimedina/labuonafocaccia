@@ -4,7 +4,7 @@ import { Card, Button } from 'react-bootstrap';
 const ProductCard = () => {
 
   return (
-    <Card className="productCard shadow col-lg-3 col-md-6">
+    <Card className="productCard flex-row">
         <Card.Body className="productCard__body">
             <h3 className="productCard__title">La Bonita</h3>
             {/* <Card.Title className="productCard__title">La Bonita</Card.Title> */}

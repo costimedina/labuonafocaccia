@@ -5,7 +5,7 @@ import Grid from '../components/Grid';
 
 const Menu = () => {
   return (
-    <Container fluid className='mainCont ms-5'>
+    <Container className='mainCont p-0'>
         <h2 className="mainCont__title">DE LA BUONA</h2>
         <Grid />
         

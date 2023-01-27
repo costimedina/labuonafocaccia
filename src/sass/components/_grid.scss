@@ -1,5 +1,6 @@
 .myGrid{
     display: flex;
     flex-wrap: wrap;
-    gap: 4rem;
+    justify-content: space-between;
+    row-gap: 3.125rem;
 }
