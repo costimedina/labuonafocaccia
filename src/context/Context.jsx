@@ -7,23 +7,55 @@ const Context = createContext({});
 //PROVIDE CONTEXT
 const ContextProvider = ({ children }) => {
 
-    const [ products, setProducts ] = useState([]);
+    const [ clasicas, setClasicas ] = useState([]);
+    const [ modernas, setModernas ] = useState([]);
+    const [ postmodernas, setPostmodernas ] = useState([]);
 
-//Async function to get the info
-const getProducts = async() => {
-    const res = await fetch('./products.json');
+//Async function to get the info of Clasicas -------------------------------------------------------------
+const getClasicas = async() => {
+    const res = await fetch('http://localhost:3000/products.json');
     const data = await res.json();
-    setProducts(data)
+    setClasicas(data.clasicas);
 }
 
 useEffect(()=>{
-    getProducts();
-}, [])
+    getClasicas();
+}, []);
+
+console.log(clasicas)
+
+
+//Async function to get the info of Modernas -------------------------------------------------------------
+const getModernas = async() => {
+    const res = await fetch('http://localhost:3000/products.json');
+    const data = await res.json();
+    setModernas(data.modernas);
+}
+
+useEffect(()=>{
+    getModernas();
+}, []);
+
+console.log(modernas)
+
+
+//Async function to get the info of Postmodernas -------------------------------------------------------------
+const getPostmodernas = async() => {
+    const res = await fetch('http://localhost:3000/products.json');
+    const data = await res.json();
+    setPostmodernas(data.postmodernismos);
+}
+
+useEffect(()=>{
+    getPostmodernas();
+}, []);
+
+console.log(postmodernas)
 
 
   return (
     //Pass the variables and functions through the ContextProvider as values
-    <Context.Provider value={{products, setProducts}}>
+    <Context.Provider value={{clasicas, setClasicas, modernas, setModernas, postmodernas, setPostmodernas}}>
         {children}
     </Context.Provider>
   )
