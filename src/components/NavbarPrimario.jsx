@@ -1,18 +1,15 @@
 //STYLES
 import { Container, Nav, Navbar } from "react-bootstrap";
 
-//COMPONENTS 
-
-
 function NavbarPrimario() {
     return (
         <>
-            <Navbar
-                className="small-nav"
-                bg="secondary">
-                <p>Delivery gratis sobre comprar de $30.000</p>
-            </Navbar>
-            <Navbar className="principal-nav" bg="light" variant="dark">
+            <Container className="container bg-secondary">
+                <Navbar className="secondaryNav">
+                    <p className="navSecondaryText">Delivery gratis sobre compras de $30.000</p>
+                </Navbar>
+            </Container>
+            <Navbar className="primaryNav" bg="light" variant="dark">
                 <Container>
                     <Navbar.Brand>Menú</Navbar.Brand>
                     <Nav className="me-auto" variant="light">
