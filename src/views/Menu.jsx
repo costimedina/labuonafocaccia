@@ -5,14 +5,24 @@ import Context from '../context/Context';
 
 const Menu = () => {
 
-  const { products, setProducts } = useContext(Context);
-// console.log(products)
+  const { clasicas, modernas, postmodernas } = useContext(Context);
+// console.log(postmodernas)
   return (
     <Container className='mainCont p-0'>
-      <section>
-        <h2 className="mainCont__title">DE LA BUONA</h2>
-        <Grid data={products}/>
+      <Grid />
+      {/* <section>
+        <h2 className="mainCont__title">CLASICAS</h2>
+        <Grid data={clasicas}/>
       </section>
+      <section>
+        <h2 className="mainCont__title">MODERNAS</h2>
+        <Grid data={modernas}/>
+      </section>
+    
+      <section>
+        <h2 className="mainCont__title">POST MODERNISMOS</h2>
+        <Grid data={postmodernas}/>
+      </section> */}
     
         
          

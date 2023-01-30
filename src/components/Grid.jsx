@@ -4,18 +4,45 @@ import Context from '../context/Context';
 
 
 
-const Grid = ({data}) => {
+const Grid = () => {
   
-  const { products, setProducts } = useContext(Context);
-
+  const { clasicas, modernas, postmodernas } = useContext(Context);
 
   return (
-    <div className="myGrid">
-   {data.map((e)=>(
-    <ProductCard product={e}/>
-   ))}
-    
+    <div>
+      <section>
+        <h2 className="mainCont__title">CLÁSICAS</h2>
+          <div className="myGrid">
+                {clasicas.map((data, i)=>(
+                  <ProductCard key={i} product={data}/>
+                ))}
+          </div>
+      </section>
+
+      <section className="mt-5">
+        <h2 className="mainCont__title">MODERNAS</h2>
+          <div className="myGrid">
+                {modernas.map((data, i)=>(
+                  <ProductCard key={i} product={data}/>
+                ))}
+          </div>
+      </section>
+
+      <section className="mt-5">
+        <h2 className="mainCont__title">POST MODERNISMOS</h2>
+          <div className="myGrid">
+                {postmodernas.map((data, i)=>(
+                  <ProductCard key={i} product={data}/>
+                ))}
+          </div>
+      </section>
+
     </div>
+
+
+
+
+
   );
 }
 

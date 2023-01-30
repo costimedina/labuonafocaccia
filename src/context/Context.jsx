@@ -17,12 +17,10 @@ const getClasicas = async() => {
     const data = await res.json();
     setClasicas(data.clasicas);
 }
-
 useEffect(()=>{
     getClasicas();
 }, []);
 
-console.log(clasicas)
 
 
 //Async function to get the info of Modernas -------------------------------------------------------------
@@ -36,8 +34,6 @@ useEffect(()=>{
     getModernas();
 }, []);
 
-console.log(modernas)
-
 
 //Async function to get the info of Postmodernas -------------------------------------------------------------
 const getPostmodernas = async() => {
@@ -50,7 +46,7 @@ useEffect(()=>{
     getPostmodernas();
 }, []);
 
-console.log(postmodernas)
+console.log(postmodernas);
 
 
   return (
