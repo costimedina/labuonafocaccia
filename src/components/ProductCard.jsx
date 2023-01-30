@@ -17,7 +17,7 @@ const ProductCard = ({product}) => {
             {product.desc1}
             </Card.Text>
             <Card.Text className="productCard__price">${product.price}</Card.Text>
-            <Button variant="primary">Agregar</Button>
+            <Button variant="primary" className='custom-btn'>Agregar</Button>
         </Card.Body>
         <span className='productCard__img_container'>
         <Card.Img className="productCard__img" src={product.img} alt={product.name} />

@@ -5,5 +5,19 @@ $theme-colors: (
     "dark": $dark,
 );
 
-
 @import "~bootstrap/scss/bootstrap";
+
+// BOOTSTRAP SASS OVERRIDES
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+$font-size-base: 14px;
+$font-family-sans-serif: $font-text;
+$font-family-serif: $font-title;
+$headings-font-weight: 400;
+$font-size-base: 16px;
+$font-size-h1: floor(($font-size-base*3)); // ~48px
+$font-size-h2: floor(($font-size-base*2)); // ~32px
+$font-size-h3: ceil(($font-size-base*1.5)); // ~24px
+$font-size-h4: ceil(($font-size-base*1.25)); // ~18px
+$btn-font-weight: 600;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";

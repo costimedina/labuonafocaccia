@@ -2,27 +2,27 @@
 //H1
 @mixin title-h1{
     font-family: $font-title;
-    font-size: 3rem !important;
+    font-size: 3rem;
     font-style: normal;
-    font-weight: 400 !important;
+    font-weight: 400;
     line-height: 4.3rem;
 }
 
 //H2
 @mixin title-h2{
     font-family: $font-title;
-    font-size: 2rem !important;
+    font-size: 2rem;
     font-style: normal;
-    font-weight: 400 !important;
+    font-weight: 400;
     line-height: 4.3rem;
 }
 
 //H3
 @mixin title-h3{
     font-family: $font-title;
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
     font-style: normal;
-    font-weight: 400 !important;
+    font-weight: 400;
     line-height: 2.125rem;
     text-transform: uppercase;
 }
@@ -30,16 +30,16 @@
 //H4
 @mixin title-h4{
     font-family: $font-title;
-    font-size: 1.25rem !important;
+    font-size: 1.25rem;
     font-style: normal;
-    font-weight: 400 !important;
+    font-weight: 400;
     line-height: 1.8rem;
 }
 
 //H5
 @mixin title-h5{
     font-family: $font-title;
-    font-size: 1rem !important;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.8rem;
