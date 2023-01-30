@@ -22,6 +22,10 @@ time, mark, audio, video {
 	font-size: 100%;
 	vertical-align: baseline;
 }
+
+p::first-letter{
+	text-transform: uppercase;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
