@@ -7,7 +7,8 @@
     border: none !important;
 
     &__img_container{
-        // box-sizing: border-box;
+        box-sizing: border-box;
+        width: 13.2rem;
         display: flex;
         overflow: hidden;
     }
@@ -20,6 +21,8 @@
     &__body{
         display: flex;
         flex-direction: column;
+        justify-content:space-between;
+        max-width: 15rem;
         padding: 1.875rem;
         background-color: $light;
         border: none;
@@ -33,6 +36,8 @@
 
     &__desc{
         @include text;
+        max-height: 2.5rem;
+        overflow: hidden;
     }
 
     &__price{
